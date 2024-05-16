@@ -1,0 +1,37 @@
+body{
+    display:grid;
+    place-items: center;
+}
+
+form{
+    display:grid;
+    padding: 100px;
+    margin: 80px;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+.campo{
+    padding: 5px;
+}
+
+
+#nombre-incorrecto{
+    display: none;
+}
+
+#apellido-incorrecto{
+    display: none;
+}
+
+#numero-incorrecto{
+    display: none;
+}
+
+#correo-incorrecto{
+    display: none;
+}
